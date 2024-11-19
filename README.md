@@ -14,14 +14,19 @@
 50 epochs, L1 regularization, η=0.001, λ=0.001
 
 4- Plot the coefficient magnitudes for the three LASSO regularized models as line plots. Use log(λ) on the x-axis and coefficient values on the y-axis.
+
 5- Compute and report the test loss for each training configuration. Report the loss values to at least five decimal places.
 
 (B) Support Vector Machines:
 
 
 1- Pick two digits from the MNIST dataset and create a subset containing only those digits. Randomly divide the data into training and test sets (70%-30% split).
+
 2- Train an SVM classifier with a linear kernel on the training data and fine-tune the cost parameter C using cross-validation. What is the highest cross-validation accuracy and the corresponding C value?
+
 3- Report precision, recall, and accuracy values of the linear kernel SVM classifier on both training and test data.
+
 4- Perform SVM classification using the RBF kernel. Tune the parameters 𝐶 and 𝛾 using cross-validation. What is the best cross-validation accuracy and the corresponding 𝐶 and 
 γ values?
+
 5- Re-train the RBF kernel SVM classifier on the full training data using the best parameter pair and classify the test data. Report precision, recall, F1, and accuracy values for both training and test data.
