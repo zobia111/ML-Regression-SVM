@@ -2,8 +2,11 @@
 
 
 1- How many steps will the algorithm take in 2 epochs if your training data consists of 1000 datapoints and you are using SGD?
+
 2- Write the stochastic gradient descent update rules for  𝑤(j) and 𝑏 for LASSO regression.
+
 3- Plot the loss curves for the following training configurations:
+
 50 epochs, no regularization, η=0.01
 50 epochs, no regularization, η=0.001
 50 epochs, L1 regularization, η=0.001, λ=1
