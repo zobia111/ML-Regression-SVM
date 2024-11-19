@@ -8,9 +8,13 @@
 3- Plot the loss curves for the following training configurations:
 
 50 epochs, no regularization, η=0.01
+
 50 epochs, no regularization, η=0.001
+
 50 epochs, L1 regularization, η=0.001, λ=1
+
 50 epochs, L1 regularization, η=0.001, λ=0.1
+
 50 epochs, L1 regularization, η=0.001, λ=0.001
 
 4- Plot the coefficient magnitudes for the three LASSO regularized models as line plots. Use log(λ) on the x-axis and coefficient values on the y-axis.
